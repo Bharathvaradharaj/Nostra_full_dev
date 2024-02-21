@@ -157,14 +157,14 @@ position: relative;
     gap: 10px;
 }
 
-.left_arrow{
+.right_arrow_div{
 
 
     position: absolute;
     top: 7vw;
     right: 5vw;
 }
-.left_arrow_btn{
+.right_arrow{
 
     width: 7vw;
     color: #ffffff;
@@ -174,7 +174,139 @@ position: relative;
 
 
 }
-.right_arrow{
+.right_arrow_btn{
 
     width: 17px;
+}
+
+.left_arrow_div{
+
+    position: absolute;
+    top: 7vw;
+    left: 5vw;
+
+}
+
+.left_arrow{
+    width: 7vw;
+
+}
+
+
+
+/* Brands css */
+
+.Brands_overall{
+
+    margin-top: 56px;
+}
+
+.Brand_list{
+
+    display: flex;
+    justify-content: space-between;
+}
+.list_1{
+
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    align-items: center;
+     
+}
+
+.Puma_img{
+
+    width: 5vw;
+}
+
+.puma{
+    margin: 0rem 0rem 0rem 0rem;
+    font-size: 2vw;
+}
+
+
+/* Desc */
+
+
+.Desc{
+
+    display: flex;
+  
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5vw;
+    font-size: 1.5vw;
+    margin-bottom: 10px;
+
+}
+
+.Desc_1{
+    margin: 0rem 0rem 0rem 0rem;
+    font-size: 2vw;
+
+}
+.Desc_1_1{
+
+    margin: 0rem 0rem 0rem 0rem;
+    font-size: 2vw;
+    width: 31vw;
+
+}
+
+.Desc_2{
+
+
+}
+
+
+/* Services */
+.Servies_overall_div{
+
+    
+    font-size: 1vw;
+    display: flex;
+    gap: 10px;
+    margin-top: 1rem;
+}
+
+.servie_1{
+
+    width: fit-content;
+    background-color: #F2F4F7;
+    padding: 10px 1rem 1rem 1rem;
+}
+.servie_1_img{
+
+    width: 3vw;
+}
+
+.servie_1_title{
+
+    margin: 0px;
+}
+
+.servie_1_desc{
+
+
+    margin: 0px;
+}
+
+/* New Arrivals  css*/
+
+.New_aarivals_sec_overall{
+
+
+}
+
+
+.New_aarivals_inside_overall{
+
+
+}
+
+
+.New_aarivals_title{
+    font-size: x-large;
+
 }
