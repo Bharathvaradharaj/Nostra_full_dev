@@ -1,0 +1,180 @@
+body {
+
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Ofer title */
+.overall_offer_title {
+
+    display: flex;
+    justify-content: center;
+    background-color: #1D232C;
+}
+
+.offer_title {
+
+
+/* 
+    padding: 1px; */
+}
+
+.offer_title_text {
+    color: white;
+    text-align: center;
+    font-size: 1.5vw;
+   
+    margin: 0px;
+}
+
+.close_btn {
+    width: 20px;
+    color: white;
+    margin: 0rem 0rem 0rem 3rem;
+}
+
+
+/* nav bar css */
+
+.nav_bar_overall {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.Nostra_title {
+    padding: 0rem 0rem 0rem 2rem;
+}
+
+
+.Nostra_text{
+
+    margin: 0px;
+}
+.menu_dev {
+    padding: 0rem 1rem 0rem 0rem;
+}
+
+.menu_btn {
+
+    width: 20px;
+}
+
+.nav_bar_links {
+    display: none;
+}
+
+
+.links {
+    color: black;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.links:hover {
+
+    text-decoration: underline;
+}
+
+@media screen and (min-width:900px) {
+
+
+    .nav_bar_links {
+
+        display: flex;
+        gap: 30px;
+        padding: 0rem 4rem 0rem 0rem;
+    }
+
+
+    .menu_dev {
+        display: none;
+    }
+}
+
+/* Slider */
+
+.container{
+
+padding: 0rem 1rem 0rem 1rem;;
+}
+
+
+.slider_overall{
+position: relative;
+
+}
+.slider{
+
+    overflow: hidden;
+    padding: 0rem 0rem 0rem 0rem;
+}
+
+.slider_img{
+
+    width: 100vw;
+}
+
+
+.slider_content{
+    display: flex;
+    color: white;
+    position: absolute;
+    top: 15px;
+    /* text-align: center; */
+    width: 100%;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+    margin-top: 5vw;
+}
+
+/* .slider_content_text_1_div{
+
+
+} */
+
+.slider_content_text_1{
+
+    font-size: 5vw;
+    margin: 0px;
+}
+
+.slider_content_text_2{
+
+    margin: 0px;
+}
+
+
+.shop_now_btn{
+
+    margin-top: 10px;
+    display: flex;
+    align-items: flex-start;
+    padding: 8px;
+    gap: 10px;
+}
+
+.left_arrow{
+
+
+    position: absolute;
+    top: 7vw;
+    right: 5vw;
+}
+.left_arrow_btn{
+
+    width: 7vw;
+    color: #ffffff;
+}
+
+.shop_now_txt{
+
+
+}
+.right_arrow{
+
+    width: 17px;
+}
