@@ -41,6 +41,11 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    position: sticky;
+    z-index: 4;
+    top: 0px;
+    background-color: white;
+
 }
 
 .Nostra_title {
@@ -292,16 +297,32 @@ position: relative;
     margin: 0px;
 }
 
-/* New Arrivals  css*/
+/* Animation */
 
-.New_aarivals_sec_overall{
-
+.animation{
+animation-name: zoom;
+   
+    animation-duration: 3s;
 
 }
 
+@keyframes zoom{
 
+0%{
+   
+    opacity: 0.1;
+   
+}
+
+
+100%{
+    opacity: 1;
+  
+}
+
+}
+/* New Arrivals  css*/
 .New_aarivals_inside_overall{
-
 
 }
 
