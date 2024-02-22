@@ -310,3 +310,243 @@ position: relative;
     font-size: x-large;
 
 }
+
+
+.New_aarivals_list_div{
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.New_list_1{
+
+    position: relative;
+}
+.New_list_1_img{
+
+    width: 20vw;
+}
+
+.background_screen{
+    border-radius: 2%;
+    position: absolute;
+    width: 20vw;
+    height: 100%;
+    background-color: black;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+}
+
+.shop_now_btn_new_arr{
+
+    padding: 1vw 2vw 1vw 2vw;
+    position: absolute;
+    top: 13vw;
+    left: 4vw;
+    z-index: 3;
+    border-radius: 1vw;
+    border: none;
+    font-size: 1.1vw;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+
+.shop_now_btn_1{
+
+
+}
+
+.right_arrow_btn_new_arr{
+    width: 2vw;
+
+}
+
+/* Most Popular section css */
+
+
+.Most_Popular_title{
+    font-size: x-large;
+
+}
+
+
+.Most_Popular_list_div{
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.Popular_list_1{
+
+    position: relative;
+}
+
+.sale_overlay{
+    position: absolute;
+    background-color: red;
+    color: white;
+    width: fit-content;
+    font-size: 2.1vw;
+    padding: 0px 12px 0px 5px;
+    top: 0;
+    border-radius: 2px;
+    margin: 0px;
+}
+.like_button{
+    position: absolute;
+    width: 3vw;
+    top: 16vw;
+    right: 1vw;
+}
+
+/* Limit offer css */
+
+.Overall_limit_offer{
+
+    background-color: #1D232C;
+    margin-top: 25px;
+
+}
+
+
+.limit_offer_inside_overall{
+
+   
+    display: flex;
+}
+.limit_offer_image{
+
+    width: fit-content;
+    padding: 3vw 1vw 1vw 4vmin;
+}
+
+.limit_offer_img{
+    width: 100%;
+}
+
+.limited_offer_text{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2vw;
+    padding: 0rem 0rem 0rem 6vw;
+
+
+}
+.limit_offer_title{
+    margin: 0px;
+
+}
+.limit_offer_desc{
+
+    margin: 0px;
+
+}
+
+
+.shop_now_btn_limit_off{
+    padding: 1vw 2vw 1vw 3vw;
+    border-radius: 2vw;
+    border: none;
+    font-size: 1.1vw;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    width: 15vw;
+
+}
+
+.right_arrow_btn_limit_off{
+
+    width: 2vw;
+}
+
+/* News letter */
+
+.news_letter_overall{
+    margin-top: 5vw;
+
+}
+.news_letter_inside_overall{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 2vw;
+}
+
+.news_title_div{
+
+
+}
+
+.news_leter_title{
+margin: 0px;
+
+}
+
+.news_leter_desc{
+
+    margin: 0px;
+}
+
+.text_input{
+
+    margin-top: 10px;
+    padding: 11px;
+    width: 80vw;
+    margin-bottom: 10px;
+    border: solid #1D232C 3px;
+
+}
+
+.Subscribe_btn{
+
+    margin-top: 10px;
+    font-size: 1.8vw;
+    color: #E2E1E1;
+    background-color: #1D232C;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    display:inline-flex;
+    gap: 5px;
+}
+
+.next_arrow_btn_limit_off{
+    width:2vw;
+}
+
+/* footer css */
+
+
+.footer_overall{
+    background-color: #1D232C;
+    padding: 10px;
+    color: white;
+    font-size: 2.2vw;
+    padding: 2rem 2rem 1rem 2rem;
+    margin-top: 20px;
+
+
+}
+
+.footer_title{
+    margin: 0px;
+
+}
+
+.instagram,.facebook,.twitter{
+
+    width: 2vw;
+    margin: 0rem 2rem 0rem 0rem;
+}
+
+.social_media_div{
+
+    padding-left: 2vw;
+}
