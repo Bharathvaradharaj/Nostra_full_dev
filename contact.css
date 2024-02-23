@@ -6,39 +6,6 @@ body {
 }
 
 
-.overall {}
-
-/* Ofer title */
-.overall_offer_title {
-
-    display: flex;
-    justify-content: center;
-    background-color: #1D232C;
-}
-
-.offer_title {
-
-
-
-    padding-top: 5px;
-    padding-bottom: 5px;
-
-
-}
-
-.offer_title_text {
-    color: white;
-    text-align: center;
-    font-size: 1.5vw;
-
-    margin: 0px;
-}
-
-.close_btn {
-    width: 20px;
-    color: white;
-    margin: 0rem 0rem 0rem 3rem;
-}
 
 /* nav bar css */
 
@@ -107,98 +74,64 @@ body {
 
 
 
-/* Checkbox container */
 
-.collections_container {
 
-    padding-left: 15px;
+/* contact css */
+
+
+.Contact_container {
+
+
+    padding: 10px 15px 10px 15px;
 }
 
-.collections_container_inside {
-    display: flex;
-}
-
-.checkbox_overall {
-    flex-basis: 25%;
-    font-size: 2vw;
-}
-
-.checkbox_1,
-.checkbox_2,
-.checkbox_3 {
-    /* font-size: 2vw; */
-}
-
-.line {}
-
-.vertical_line {
-
-
-
-    border: none;
-    border-left: 3px solid #1D232C;
-    height: 100vw;
-    margin: 0 20px;
-    position: absolute;
-    top: 90px;
-    left: 20vw;
-
-}
-
-/* Products items */
-
-/* Search css */
-.Products_overall {
-    flex-basis: 75%;
-    padding: 1rem 1rem 1rem 2rem;
-}
-
-.search_div {
-
-    padding: 10px;
-    border: solid black 1px;
-    display: flex;
-    align-items: center;
-    height: 15px;
-    width: 95%;
-    justify-content: space-between;
+.Contact_inside_div {
+    background-color: #1D232C;
+    color: white;
+    margin: 1vw 10vw 1vw 13vw;
+    padding: 4vw 6vw 1vw 6vw;
     border-radius: 10px;
+    padding-bottom: 50px;
+    width: 60vw;
 }
 
-.search_fld {
+.contact_form{
+
+
+}
+.name_fld{
+    width: 92%;
+    height: 6vh;
+    padding: 1vw;
+
+    border-radius: 5px;
+    margin: 1vw 1vw 1vw 0vw;
+}
+
+.message_fld{
+
+    width: 92%;
+    height: 8vw;
+    border-radius: 5px;
+    margin: 1vw 1vw 1vw 0vw;
+    padding: 1vw;
+}
+.submit_btn{
+    padding: 10px 20px 10px 20px;
+    color: white;
+    background-color: #0056B3;
     border: none;
-    outline: none;
-    width: 90%;
-
-}
-
-.search_icon {
-    width: 23px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 
-/* Products list */
-
-/* Products list */
-.Products_list {
-    margin-top: 12px;
-    font-size: 1vw;
-    gap: 4vw;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-
-}
-
-.Products_items {
-
-    width: 20vw;
-}
 
 
 /* News letter */
 
 .news_letter_overall{
-    margin-top: 7vw;
+    margin-top: 2vw;
 
 }
 .news_letter_inside_overall{
@@ -251,6 +184,7 @@ margin: 0px;
 }
 
 
+
 /* Footer section */
 .footer_overall{
     background-color: #1D232C;
@@ -278,6 +212,4 @@ margin: 0px;
 
     padding-left: 2vw;
 }
-
-
 
