@@ -72,11 +72,11 @@
                         </div>
                         <div class="Occasion_checkbox">
 
-                            <input type="checkbox"> Summer
+                            <input type="checkbox" id="summerCheckbox" name="check" onclick="filterProducts(event)" value="Summer"> Summer
                             <br>
-                            <input type="checkbox"> Party
+                            <input type="checkbox" id="partyCheckbox" name="check" onclick="filterProducts(event)" value="Party"> Party
                             <br>
-                            <input type="checkbox"> Beach
+                            <input type="checkbox"  id="beachCheckbox" name="check" onclick="filterProducts(event)" value="Beach"> Beach
 
                         </div>
                     </div>
@@ -87,14 +87,14 @@
                         </div>
                         <div class="Occasion_checkbox">
 
-                            <input type="checkbox"> Red
+                            <input type="checkbox" name="color_check" value="Red" onclick=" colorfilter(event)"> Red
                             <br>
-                            <input type="checkbox"> Blue
+                            <input type="checkbox" name="color_check" value="Blue" onclick=" colorfilter(event)"> Blue
                             <br>
-                            <input type="checkbox"> Green
+                            <input type="checkbox" name="color_check" value="Green" onclick=" colorfilter(event)"> Green
                             <br>
 
-                            <input type="checkbox"> white
+                            <input type="checkbox" name="color_check" value="White" onclick=" colorfilter(event)"> white
                         </div>
 
 
@@ -128,14 +128,14 @@
 
                     <div class="search_div">
 
-                        <input type="search" placeholder="Search Products" class="search_fld">
+                        <input type="search" placeholder="Search Products" class="search_fld" id="Search">
                         <img src="./Images/search.png" class="search_icon">
 
                     </div>
 
 
 
-                    <div class="Products_list">
+                    <div id="overall_prodcuts"  class="Products_list">
 
                         <div class="Products_1">
 
@@ -144,6 +144,7 @@
 
                             <h2>Floral Summer Shirt</h2>
                             <p> ₹399</p>
+                            <tags style="visibility: hidden;"> Red Summer</tags>
                         </div>
 
                         <div class="Products_1">
@@ -153,6 +154,7 @@
 
                             <h2>Summer Green</h2>
                             <p> ₹260</p>
+                            <tags style="visibility: hidden;"> Blue Party</tags>
                         </div>
 
 
@@ -163,6 +165,7 @@
 
                             <h2>Party Floral Shirt</h2>
                             <p> ₹399</p>
+                            <tags style="visibility: hidden;"> Green Beach</tags>
                         </div>
 
                         <div class="Products_1">
@@ -172,6 +175,7 @@
 
                             <h2>Floral Summer Shirt</h2>
                             <p> ₹399</p>
+                            <tags style="visibility: hidden;"> White Summer</tags>
                         </div>
 
                         <div class="Products_1">
@@ -181,6 +185,7 @@
 
                             <h2>Beach Shirt</h2>
                             <p> ₹579</p>
+                            <tags style="visibility: hidden;">Party</tags>
                         </div>
 
 
@@ -191,6 +196,7 @@
 
                             <h2>Floral Summer Shirt</h2>
                             <p> ₹399</p>
+                            <tags style="visibility: hidden;">Beach</tags>
                         </div>
 
 
@@ -201,6 +207,7 @@
 
                             <h2>Floral Summer Shirt</h2>
                             <p> ₹399</p>
+                            <tags style="visibility: hidden;">Summer</tags>
                         </div>
 
 
@@ -211,6 +218,7 @@
 
                             <h2>Shirt Party Red</h2>
                             <p> ₹579</p>
+                            <tags style="visibility: hidden;">Party</tags>
                         </div>
 
 
@@ -221,6 +229,7 @@
 
                             <h2>Floral Summer Shirt</h2>
                             <p> ₹220</p>
+                            <tags style="visibility: hidden;">Beach</tags>
                         </div>
 
 
@@ -274,35 +283,37 @@
 
 
 
-         <!-- footer section -->
-    <footer class="footer_container">
+        <!-- footer section -->
+        <footer class="footer_container">
 
-        <div class="footer_overall">
+            <div class="footer_overall">
 
-            <h2 class="footer_title">Nostra</h2>
-            <p class="footer_desc">The Standard chunk of Lorem ipsum used since the 1500s is reprodused below for those
-                interest</p>
+                <h2 class="footer_title">Nostra</h2>
+                <p class="footer_desc">The Standard chunk of Lorem ipsum used since the 1500s is reprodused below for
+                    those
+                    interest</p>
 
-            <div class="social_media_div">
+                <div class="social_media_div">
 
-                <img src="./Images/instagram.png" class="instagram">
+                    <img src="./Images/instagram.png" class="instagram">
 
-                <img src="./Images/facebook.png" class="facebook">
+                    <img src="./Images/facebook.png" class="facebook">
 
-                <img src="./Images/twitter.png" class="twitter">
+                    <img src="./Images/twitter.png" class="twitter">
+                </div>
+
+
+                <p>@ 2023 Nostra.com</p>
             </div>
 
 
-            <p>@ 2023 Nostra.com</p>
-        </div>
 
 
 
-
-
-    </footer>
+        </footer>
 
     </div>
+    <script src="collection.js"></script>
 </body>
 
 </html>
