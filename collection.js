@@ -5,9 +5,9 @@ var divlist = overall_prodcuts.querySelectorAll("div")
 // console.log(checkbox[0].value)
 console.log(divlist)
 
-
-
-
+var tagsElement = document.getElementById('tags');
+var tags = tagsElement.textContent.split(','); // Assuming the content is comma-separated
+console.log(tags);
 
 function filterProducts(event) {
     var checkboxes = document.getElementsByName("check");
@@ -63,18 +63,3 @@ products.style.display = showProduct ||!anycolorfilterchecked? "block":"none"
 }
 
 
-//Search function
-
-var Search =document.getElementById("Search")
-
- var overall_prodcuts =document.getElementById('overall_prodcuts')
- var h2list = overall_prodcuts.querySelectorAll('h2')
- console.log(h2list.textContent)
-
-
-Search.addEventListener('keypress', function(){
-
-var enteredvalue = Search.textContent.toUpperCase()
-if(enteredvalue ==)
-
-})
